@@ -1,0 +1,9 @@
+local:
+  build: .
+  volumes:
+    - .:/usr/src/deployer
+  ports:
+    - 80
+  environment:
+    HTTP_PORT: 80
+    VIRTUAL_HOST: deployer.local.dockito.org
