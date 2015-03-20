@@ -10,4 +10,4 @@ local:
   environment:
     HTTP_PORT: 80
     VIRTUAL_HOST: deployer.local.dockito.org
-    DOCKER_CONNECTION: unix:///tmp/docker.sock
+    ACCESS_TOKEN: goml93H1J689RUn60yFJgRJ97RmSbKM4
