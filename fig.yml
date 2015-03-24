@@ -4,7 +4,7 @@ local:
     - .:/usr/src/deployer
     - /var/run/docker.sock:/tmp/docker.sock
     - /usr/bin/docker:/usr/bin/docker
-    - /vagrant/dockito/provisioner/output/:/var/docker-provisioners
+    - /vagrant/dockito/provisioner/output/:/var/lib/docker-provisions
   ports:
     - 80
   environment:
